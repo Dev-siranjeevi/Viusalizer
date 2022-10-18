@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>CIFP reader</title>
+
+  <link rel="stylesheet" href="reader.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="data-reciever">
+    <h2>CIFP input</h2>
+    <textarea name="name" rows="10" cols="40" id="read"></textarea>
+    <span>CIFP units</span>
+    <!-- <input type="file" name="" id="fileSel"> -->
+  </div>
+  <div class="tabulation">
+    <h2>Decoding</h2>
+    <table id="coding">
+      <tr class="first">
+        <th>Seq</th>
+        <th>Trans Ident</th>
+        <th>F.O</th>
+        <th>Path</th>
+        <th>RNP value</th>
+        <th>Fix attr</th>
+        <th>Comp</th>
+        <th>Fix</th>
+        <th>Desc</th>
+        <th>Altitude (ft)</th>
+        <th>Speed limit(kts)</th>
+        <th>Course</th>
+        <th>Turn</th>
+        <th>Distance</th>
+        <th>Arc radius</th>
+        <th>Center Fix</th>
+        <th>Recom</th>
+        <th>Theta</th>
+        <th>Rho</th>
+        <th>Vertical Angle</th>
+      </tr>
+    </table>
+  </div>
+
+  <script src="reader.js"> </script>
+</body>
+
+</html>
